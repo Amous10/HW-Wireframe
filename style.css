@@ -1,6 +1,5 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    text-emphasis: none;
     color: #777;
     background: #777;
     width: 960px;
@@ -26,70 +25,83 @@ nav {
     height: 100px;
     line-height: 100px;
     text-align: center;
- 
 }
 section {
-
+    position: relative;
     box-sizing: content-box; 
     background: #ebebeb;
     margin: 0px;
     float: left;
-    left: 15px;
-    width: 525px;
-    height: 290px;
-    clear: auto;
-    overflow: hidden;
+    left: 10px;
+    top: 10px;
+    width: 520px;
+    height: 330px;
+    line-height: 90px;
 }
 
 aside {
-    position: absolute;
+    position: relative;
     background: #ebebeb;
     margin: 0px;
     width: 400px;
-    height: 290px;
-    float: right;
-    clear: both;
-    right: 130px;
+    height: 330px;
+    float: left;
+    left: 30px;
+    top: 10px;
+    line-height: 90px;
 }
 
 footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
     background: #ebebeb;
     margin: 10px;
-    clear: both;
     height: 100px;
-    line-height: 100px;
+    width: 940px;
     text-align: center;
-    
+    line-height: 100px;
+    float: left;
+    bottom: 90px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    margin: 10px;
-    vertical-align: 10px;
-    width: 495px;
-    height: 180px;
+    top: 84px;
+    margin: 0px;
+    left: 10px;
+    position: absolute;
+    width: 500px;
+    height: 235px;
     line-height: 60px;
+  
 }
 
 #h1h2h3 { 
     color: #777;
     background: #ebebeb;
+    font-weight: bold;
     margin: 10px;
-    width: 470px;
-    height: 60px;
-    line-height: 50px;
+    width: 450px;
+    height: 66px;
+    position: initial;
     text-align: center;
-    overflow: hidden;
+    font-size: 22px;
+    margin-left: 20px;
 }
 
 p {
     color: #777;
     background: #ebebeb;
     margin: 10px;
-    width: 495px;
-    height: 60px;
-    line-height: 50px;
+    width: 450px;
+    height: 66px;
     text-align: center;
-    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+}
+
+a {
+    text-align: center;
+
 }
